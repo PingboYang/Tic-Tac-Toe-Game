@@ -67,13 +67,17 @@ int main() {
     
     }
 void printBoard(char board[][3]) {
+  cout<<"\n_______________"<<endl;
     for (int i = 0; i < 3; i++) {
       
         for (int j = 0; j < 3; j++) {
             cout <<"|___"<< board[i][j];
         }
         cout << endl;
+      
     }
+  cout<<"\n_______________"<<endl;
+  
 }
 bool isGameOver(char board[][3]){
   //check rows for a win
